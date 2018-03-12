@@ -1,0 +1,444 @@
+  	body {
+  		font-family:'Montserrat', serif !important;
+  	}
+  	* {
+  		box-sizing:border-box;
+  	}
+	::selection {
+		color:white;
+		background-color:orange;
+	}
+  	.container-fluid {
+		padding-left:0 !important;
+		padding-right:0 !important;
+  		overflow-y:hidden;
+		overflow-x:hidden !important;
+  	}
+  	.navbar {
+  		background-color:white !important;
+  		border-bottom:none !important;
+  	}
+  	.nav li a {
+  		color:#3B5998 !important;
+  		font-weight:bold;
+  		font-size:15px;
+  	}
+  	.nav  {
+  		margin-top:18px !important;
+  	}
+  	.navbar-brand img {
+  		margin:0px 30px;
+  	}
+  	.carousel-indicators li {
+  		background-color:#3B5998 !important;
+  		border-color:#3B5998 !important;
+  	}
+	.carousel-indicators li.active {
+		background-color:white !important;
+	}
+  	.carousel-caption {
+  		left:5% !important;
+  		top:10%;
+  		text-align:left !important;
+  	}
+  	.carousel-caption .glyphicon {
+  		color:white;
+  		font-size:15px;
+  		border-radius:50%;
+  		padding:3px;
+  	}
+  	.carousel-caption .glyphicon-menu-right {
+  		border:1px solid white;
+  	}
+  	.carousel-caption .glyphicon:hover {
+  		background-color:white;
+  		color:#3B5998;
+  	}
+  	.odd {
+  		top:25%;
+  	}
+  	.family {
+  		margin-top:30px;
+  		width:65% !important;
+  	}
+  	.family .btn {
+  		border-radius:0;
+  		width:30%;
+  		margin-top:20px;
+  		font-size:18px;
+  	}
+  	.family .btn:hover {
+  		background-color:white;
+  		color:gray;
+  	}
+  	.family h1 {
+  		color:gray;
+  	}
+  	.family p {
+  		color:#696969;
+  	}
+  	.ford {
+  		position:relative;
+  	}
+  	.know {
+  		position:absolute;
+  		top:0;
+  		right:30%;
+  	}
+  	.ford h1 {
+  		width:80%;
+  		margin:30px 50px;
+  		font-size:43px;
+  		color:	#585858;
+  		text-shadow:1.5px 1px	#696969;
+  	}
+  	.ford .btn {
+  		margin-left:50px;
+  		border-radius:0;
+  		width:30%;
+  		height:50px;
+  		font-size:18px;
+  	}
+  	.ford .btn:hover {
+  		background-color:white;
+  		color:#3B5998;
+  	}
+  	.thumbnail {
+  		border:none;
+  	}
+  	.bg-1 {
+  		background-color:	#E8E8E8;
+  		margin-top:-30px;
+  	}
+  	.near {
+  		margin:100px 0px;
+  	}
+  	.col-sm-4 h1 {
+  		margin-left:30%;
+  	}
+  	.col-sm-8 .special {
+  		background-color:#3366FF;
+  		border-radius:0;
+  		color:white;
+  		width:50%;
+  		padding-bottom:10px;
+  	}
+  	.col-sm-8 .special:hover {
+  		background-color:white;
+  		color:#3366FF;
+  		border-color:#3366FF;
+  	}
+  	.col-sm-8 .special h3 {
+  		text-align:left;
+  	}
+  	.col-sm-8 .special, .input-group {
+  		margin-left:20%;
+  	}
+  	.col-sm-8 .input-group {
+  		width:50%;
+  	}
+  	.col-sm-8 input, .col-sm-8 .input-group-btn .btn {
+  		height:60px;
+  		border-radius:0;
+  		border:none;
+  	}
+  	.col-sm-8 .input-group-btn span {
+  		font-size:20px;
+  		color:grey;
+  	}
+  	.col-sm-9 {
+  		margin:5% 0;
+  	}
+  	.content .col-sm-6, .content .col-sm-3 {
+  		padding-left:0;
+  		padding-right:0;
+  	}
+  	.masterpiece {
+  		position:relative;
+  		text-align:center;
+  		color:white;
+  	}
+  	.centered {
+  		position:absolute;
+  		top:40%;
+  		left:50%;
+  		transform:translate(-50%,-50%);
+  	}
+  	.centered h1 {
+  		font-size:43px;
+  	}
+  	.centered .btn {
+  		background-color:#009ACD;
+  		border:none;
+  		border-radius:0;
+  		color:white;
+  		width:50%;
+  		height:45px;
+  	} 
+  	.centered .btn:hover {
+  		background-color:white;
+  		color:#009ACD;
+  		border:1px solid #009ACD;
+  	}
+  	p.mid {
+  		text-align:center;
+  		margin:20px 0px;
+  	}
+  	a.mid, a.mid:hover {
+  		text-decoration:none !important;
+  	}
+  	.terms {
+  		background-color:#F0F0F0;
+  		border-top:1px solid #D3D3D3;
+      		padding:3% 0% 3% 0%;
+  	}
+  	.terms p {
+  		margin-left:10%;
+  		font-size:13px;
+  	}
+  	.bg-2 {
+  		background-color:#404040;
+  		height:50px;
+  	}
+  	footer {
+  		overflow-x:hidden;
+  	}
+  	.foot {
+  		width:20% !important;
+  	}
+  	.bg-3 {
+  		background-color:#202020;
+  		padding:5% 0% 5% 0%;
+  	}
+  	.foot h4 {
+  		color:white;
+  	}
+  	.foot a {
+  		color:#989898;
+  	}
+  	.foot a:hover {
+  		text-decoration:none;
+		color:#989898;
+  	}
+  	.fa {
+  		color:white;
+  		padding:9px 14px;
+  	}
+  	.fa-facebook {
+  		background-color:#3B5998;
+  	}
+  	.fa-twitter {
+  		background-color:#1dcaff;
+  	}
+  	.fa-youtube-play {
+  		background-color:#cd201f;
+  	}
+  	.fa-instagram {
+  		background-color:#526f86;
+  	}
+  	.bg-4 {
+  		background-color:#043A5B;
+  		padding:2% 0% 4% 0%;
+  	}
+  	.bg-4 ul {
+  		list-style-type:none;
+  	}
+  	.bg-4 ul li {
+  		float:left;
+  		margin-right:2%;
+  	}
+  	.bg-4 ul li:last-child {
+  		float:right;
+  	}
+  	.bg-4 ul li a img {
+  		float:right;
+  		width:35%;
+  		margin-right:10%;
+  		margin-top:-1%;
+  	}
+  	.bg-4 ul li h4 {
+  		color:white;
+  		margin-left:3%;
+  		width:100%;
+  	}
+  	footer ul {
+  		list-style-type:none;
+  		padding-top:35px;
+  		padding-bottom:35px;
+  	}
+  	footer ul li {
+  		float:left;
+  		margin-right:10px;
+  	}
+  	footer ul li p {
+  		font-weight:bold;
+  		color:	#888888;
+  	}
+  	footer ul li a, footer ul li p {
+  		font-size:13px;
+  		color:gray;
+  	} 
+  	footer ul li a:hover {
+  		text-decoration:none;
+  	}
+  	.fixed {
+  		background-color:#009ACD !important;
+  		color:white !important;
+  		width:auto;
+  		height:auto;
+  		border-radius:0 !important;
+  		border:none !important;
+  		bottom:70px;
+  		left:-45px;
+  		position:fixed;
+  		z-index:1000;
+  		transform:rotate(-90deg);
+  		padding-bottom:10px !important;
+  		font-weight:bold !important;
+  	}
+  	.fixed i {
+  		font-size:20px;
+  		transform:rotate(90deg);
+  	}
+  	.fixed:hover {
+  		background-color:#009ACD;
+  		opacity:0.8;
+  		color:white;
+  	}
+  	.bottom {
+  		position:relative;
+  		color:white;
+  	}
+  	.bottom-blue {
+  		position:absolute;
+  		bottom:0;
+  		background-color:rgba(0,154,205,0.5);
+  		padding:4% 0% 4% 4%;
+  		font-weight:bold;
+  		color:white;
+  		transition:all 0.3s ease;
+  		width:100%;
+  	}
+  	.bottom:hover .bottom-blue {
+  		background-color:rgba(0,154,205,0.7);
+  	}
+  	.bottom-blue p i {
+  		border:1px solid white;
+  		border-radius:50%;
+  		padding:7px 9px 7px 9px;
+  		position:absolute;
+  		right:6%;
+  	}
+  	@media(max-width:992px) {
+  		.ford .btn {
+  			width:30%;
+  		}
+  		.col-sm-8 .special {
+  			width:70%;
+  		}
+  		.col-sm-8 .input-group {
+  			width:70%;
+  		}
+  		.col-sm-4 h1 {
+  			margin-left:0;
+  			text-align:center;
+  		}
+  		.col-sm-8 .special, .input-group {
+  			margin-left:15%;
+  		}
+  		.bg-4 ul li a img {
+  			margin-top:-10px;
+  		}
+  	}
+  	@media(max-width:768px) {
+  		.navbar-brand img {
+  			margin:-63px 0px 0px 0px;
+  		}
+  		.carousel {
+  			margin-top:-20px;
+  		}
+  		.carousel-caption h2 {
+  			font-size:10px;
+			margin-top:-0.1%;
+  		}
+  		.family {
+  			width:100% !important;
+  		}
+  		.family .btn {
+  			width:100%;
+  		}
+  		.ford {
+  			text-align:center;
+  		}
+  		.know {
+  			display:none;
+  		}
+  		.ford h1 {
+  			width:100%;
+  			font-size:15px;
+  			text-shadow:0 0;
+  			text-align:center;
+  		}
+  		.ford .btn {
+  			width:50%;
+  			height:25px;
+  			font-size:10px;
+  			position:absolute;
+  			left:25%;
+  			top:70%;
+  		}
+  		.col-sm-8 input {
+  			font-size:10px;
+  		}
+  		.col-sm-8 .special, .col-sm-8 .input-group {
+  			width:100%;
+  			margin-left:0;
+  		}
+  		.col-sm-8 .input-group-btn span {
+  			font-size:15px;
+  		}
+  		.col-sm-8 .btn h3 {
+  			font-size:15px;
+  			margin-top:10px;
+  		}
+  		.centered h1 {
+  			font-size:20px;
+  		}
+  		.centered .btn {
+  			width:100%;
+  			height:auto;
+  			}
+  		.masterpiece img {
+  			height:auto;
+  		}
+  		.foot {
+  			width:100% !important;
+  		}
+  		.bg-4 {
+  			padding:30px 0px 130px 0px;
+  		}
+  		.bg-4 ul li {
+  			margin-right:0;
+  		}
+  		.bg-4 ul li h4 {
+  			margin-left:0;
+  		}
+  		.bg-4 ul li a img {
+  			margin-top:0;
+  			float:none;
+  			margin-right:0;
+  			margin-top:5%;
+  			left:8%;
+  	
+  			position:absolute;
+  		}
+		footer ul {
+			margin-left:5%;
+		}
+  		footer ul li, .bg-4 ul li {
+  			float:none;
+  		}
+  		.qwerty img {
+  			width:100%;
+  		}
+  	}
